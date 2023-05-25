@@ -380,15 +380,13 @@ class BeanWrapperTests extends AbstractPropertyAccessorTests {
 	}
 
 
-	public static class ActiveResource implements AutoCloseable {
+	public static class ActiveResource  {
 
 		public ActiveResource getResource() {
 			return this;
 		}
 
-		@Override
-		public void close() throws Exception {
-		}
+
 	}
 
 
